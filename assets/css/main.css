@@ -411,6 +411,16 @@ main .content_single .container .content_grid .left span {
   color: var(--text-white);
   margin-bottom: 1rem;
 }
+main .content_single .container .content_grid .right {
+  position: relative;
+  overflow: hidden;
+}
+main .content_single .container .content_grid .right .car_single_swiper_bottom {
+  margin-top: 3rem;
+}
+main .content_single .container .content_grid .right .car_single_swiper_bottom img {
+  height: 15rem;
+}
 main .content_single .container .content_grid .right img {
   height: 40rem;
 }
@@ -963,8 +973,14 @@ main .services_page.single .second {
     color: var(--text-white);
     margin-bottom: 1rem;
   }
-  main .content_single .container .content_grid .right img {
+  main .content_single .container .content_grid .left h3 {
+    margin-top: 3rem;
+  }
+  main .content_single .container .content_grid .right .car_single_swiper_bottom img {
     height: auto;
+  }
+  main .content_single .container .content_grid .right img {
+    height: 25rem;
   }
   main .blog_single_content .blog__single_grid {
     grid-template-columns: 1fr;
@@ -1094,6 +1110,9 @@ main .services_page.single .second {
   main .contact .contact__map iframe {
     height: 40rem;
   }
+  main .services_page {
+    padding-top: 8rem;
+  }
   main .services_page .container {
     padding: 0 2rem;
   }
@@ -1102,6 +1121,9 @@ main .services_page.single .second {
   }
   main .services_page ul li .left img {
     height: auto;
+  }
+  main .services_page .btn {
+    padding-top: 2rem;
   }
   main .services_page.single {
     padding-top: 2rem;
