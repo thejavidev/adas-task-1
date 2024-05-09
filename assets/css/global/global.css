@@ -1,0 +1,29 @@
+.btn {
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--text-white);
+    
+}
+
+.btn span {
+    border-radius: 50%;
+    background-color: var(--bg-yellow);
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    width: 4rem;
+    height: 4rem;
+    color: var(--text-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.transition{
+    transition: var(--transition);
+}
